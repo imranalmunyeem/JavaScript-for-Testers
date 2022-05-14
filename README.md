@@ -9,4 +9,21 @@
           ---> node "filename.js"
           
 ## Variblable types in JavaScript 
-          ---> ![Difference between var, let and const keywords in JavaScript](https://user-images.githubusercontent.com/45540113/168443291-580f0a09-1097-416b-af4f-878ae2171e75.png)
+          ---> Var ::: 
+                      ---> The scope of a var variable is functional scope.
+                      ---> It can be updated and re-declared into the scope.
+                      ---> It can be declared without initialization.
+                      ---> It can be accessed without initialization as its default value is “undefined”.
+          
+          ---> Let :::
+                      ---> The scope of a let variable is block scope. 
+                      ---> It can be updated but cannot be re-declared into the scope. 
+                      ---> It can be declared without initialization.
+                      ---> It cannot be accessed without initialization, as it returns an error.
+          
+          ---> Constant ::: 
+                      ---> The scope of a const variable is block scope. 
+                      ---> It cannot be updated or re-declared into the scope.
+                      ---> It cannot be declared without initialization. 
+                      --->It cannot be accessed without initialization, as it cannot be declared without initialization.
+
