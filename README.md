@@ -27,3 +27,15 @@
                       ---> It cannot be declared without initialization. 
                       --->It cannot be accessed without initialization, as it cannot be declared without initialization.
 
+## Conditional (Logical) Operator 
+          ---> Logical operators are used to determine the logic between variables or values.
+                      ---> &&/and: (x < 10 && y > 1) is true
+                      ---> ||/or:  (x == 5 || y == 5) is false
+                      ---> !/not:  !(x == y) is true
+                      
+## Conditional (Ternary) Operator 
+          ---> Conditional (Ternary) Operator: JavaScript also contains a conditional operator that assigns a value to a variable based on some condition.
+                      ---> Syntax: variablename = (condition) ? value1:value2 
+                      ---> Example: let voteable = (age < 18) ? "Too young":"Old enough";
+
+          
