@@ -85,4 +85,34 @@
                       ---> The whole function is an expression and the returned value is stored in the variable. We use the variable name to call the function.
    
           --->  Arrow Functions ::: 
-                      ---> Arrow functions are been introduced in the ES6 version of JavaScript. It is used to shorten the code. Here we do not use the “function” keyword and use the arrow symbol.   
+                      ---> Arrow functions are been introduced in the ES6 version of JavaScript. It is used to shorten the code. Here we do not use the “function” keyword and use the arrow symbol. 
+        
+## NPM: 
+          ---> NPM or "Node Package Manager" – is the default package manager for JavaScript's runtime Node. js 
+          ---> NPM consists of 2 main parts ::: 
+                      ---> a CLI (command-line interface) tool for publishing and downloading packages. 
+                      ---> An online repository that hosts JavaScript packages.  
+          ---> We use NPM to install packages. For example: npm install <package name> 
+          
+## Yarn: 
+          ---> Yarn is a JavaScript package manager created by Facebook. 
+          ---> Yarn stands for Yet Another Resource Negotiator.
+          --->  It provides similar functionalities as NPM. It is an alternative to NPM when installing, uninstalling, and managing package dependencies from the NPM registry or GitHub repositories. 
+          ---> To use Yarn, you have to install it separately by yourself. You should install Node.js to use Yarn.
+          ---> To install Yarn run this command, "npm install yarn -- global" This will install Yarn globally so that you can run it from any directory you’d like.
+          ---> We use Yarn to install packages. For example: yarn add <package name> 
+          
+## package.json: 
+          ---> A package.json is a JSON file that exists at the root of a Javascript/Node project.
+          ---> It holds metadata relevant to the project and it is used for managing the project’s dependencies, scripts, version and a whole lot more.
+          ---> There are two ways of creating/generating a package.json file :::     
+                       ---> npm init 
+                       ---> yarn init
+                       ---> npm init -y or yarn init -y to generate the package.json file with default values.
+                       
+## NPX: 
+          ---> NPM or "Node Package Manager" – is the default package manager for JavaScript's runtime Node. js 
+          ---> NPM consists of 2 main parts ::: 
+                      ---> a CLI (command-line interface) tool for publishing and downloading packages. 
+                      ---> An online repository that hosts JavaScript packages.  
+          ---> We use NPM to install packages. For example: npm install <package name>                        
