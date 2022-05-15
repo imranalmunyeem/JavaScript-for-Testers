@@ -111,8 +111,8 @@
                        ---> npm init -y or yarn init -y to generate the package.json file with default values.
                        
 ## NPX: 
-          ---> NPM or "Node Package Manager" – is the default package manager for JavaScript's runtime Node. js 
-          ---> NPM consists of 2 main parts ::: 
-                      ---> a CLI (command-line interface) tool for publishing and downloading packages. 
-                      ---> An online repository that hosts JavaScript packages.  
-          ---> We use NPM to install packages. For example: npm install <package name>                        
+          ---> NPX is an NPM package runner that makes it really easy to install any sort of node executable that would have normally been installed using NPM. 
+          ---> When you run a package using NPX, it searches for the package in the local and global registry, and then it runs the package.  
+          ---> If the package is not already installed, NPX downloads the package files and installs the package, but it will only cache the files instead of saving it.                        
+          ---> To run package using NPX :::     
+                       ---> npx <package name>
