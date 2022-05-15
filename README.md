@@ -116,3 +116,6 @@
           ---> If the package is not already installed, NPX downloads the package files and installs the package, but it will only cache the files instead of saving it.                        
           ---> To run package using NPX :::     
                        ---> npx <package name>
+                       
+## JS Test Frameworks & Assertion Libraries: 
+          ---> Jest, Mocha, Storybook, Cypress, Enzyme, AVA, Jasmine, Puppeteer.                      
