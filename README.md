@@ -4,7 +4,8 @@
            ---> JavaScript is a scripting or programming language that allows you to implement complex features on web pages.
            
            ---> We use JavaScript to manipulate dom to make webpages more interactive, live.
-          
+
+
 ## What is NodeJS?
            ---> Node.js is a server-side platform built on Google Chrome's JavaScript Engine (V8 Engine).
            
@@ -27,9 +28,11 @@
                       
                       ---> License − Node.js is released under the MIT license   
 
+
 ## Where not to use NodeJs?
            ---> It is not advisable to use Node.js for CPU intensive applications. Because it is single threaded.
-           
+
+
 ## Client Side VS Server Side:
            ---> Client-side code is code that is run on the user's computer — when a web page is viewed, the page's client-side code is downloaded, then run and displayed by the browser.
            
@@ -50,15 +53,18 @@
            ---> Examples of popular server-side web languages include PHP, Python, Ruby, ASP.NET.
            
            ---> JavaScript can also be used as a server-side language, for example in the popular Node.js environment.
-           
+ 
+ 
 ## Installation & Setup:
            ---> Install nodejs. Recommended:LTS (https://nodejs.org/en/download/)
            
            ---> Download VSCode (https://code.visualstudio.com/download)
-           
+  
+  
 ## How to run 
           ---> node "filename.js"
-          
+
+
 ## Variblable types in JavaScript 
           ---> Var ::: 
                       ---> The scope of a var variable is functional scope.
@@ -87,6 +93,7 @@
                       
                       --->It cannot be accessed without initialization, as it cannot be declared without initialization.
 
+
 ## Conditional (Logical) Operator 
           ---> Logical operators are used to determine the logic between variables or values.
                       ---> &&/and: (x < 10 && y > 1) is true
@@ -94,11 +101,13 @@
                       ---> ||/or:  (x == 5 || y == 5) is false
                       
                       ---> !/not:  !(x == y) is true
-                      
+ 
+ 
 ## Conditional (Ternary) Operator 
           ---> Conditional (Ternary) Operator: JavaScript also contains a conditional operator that assigns a value to a variable based on some condition.
                       ---> Syntax: variablename = (condition) ? value1:value2 
                       ---> Example: let voteable = (age < 18) ? "Too young":"Old enough";
+
 
 ## Loops 
           ---> for ::: 
@@ -147,6 +156,7 @@
                       
                       ---> It cannot be accessed without initialization, as it returns an error.
 
+
 ## Functions: is a block of code that is designed to perform a task and executed when it is been called or invoked.
           ---> 3 ways to write a function in JavaScript ::: 
                       ---> Function Declaration.
@@ -165,7 +175,23 @@
    
           --->  Arrow Functions ::: 
                       ---> Arrow functions are been introduced in the ES6 version of JavaScript. It is used to shorten the code. Here we do not use the “function” keyword and use the arrow symbol. 
-        
+                      
+                      
+## Synchronous & Asynchronous types in JavaScript 
+          ---> Synchronous ::: 
+                      ---> Synchronous means to be in a sequence.
+                      
+                      ---> Every statement of the code gets executed one by one.
+                      
+                      ---> So, basically a statement has to wait for the earlier statement to get executed.
+                      
+          ---> Asynchronous :::
+                      ---> Asynchronous means to be in a non-sequence. 
+                      
+                      ---> Asynchronous code allows the program to be executed immediately where the synchronous code will block further execution of the remaining code until it finishes the current one. 
+                      
+                      ---> This may not look like a big problem but when you see it in a bigger picture you realize that it may lead to delaying the User Interface.                   
+                      
 ## NPM: 
           ---> NPM or "Node Package Manager" – is the default package manager for JavaScript's runtime Node. js 
           
@@ -174,6 +200,7 @@
                       ---> An online repository that hosts JavaScript packages.  
                       
           ---> We use NPM to install packages. For example: npm install <package name> 
+          
           
 ## Yarn: 
           ---> Yarn is a JavaScript package manager created by Facebook. 
@@ -187,7 +214,8 @@
           ---> To install Yarn run this command, "npm install yarn -- global" This will install Yarn globally so that you can run it from any directory you’d like.
           
           ---> We use Yarn to install packages. For example: yarn add <package name> 
-          
+
+
 ## package.json: 
           ---> A package.json is a JSON file that exists at the root of a Javascript/Node project.
           
@@ -197,7 +225,8 @@
                        ---> npm init 
                        ---> yarn init
                        ---> npm init -y or yarn init -y to generate the package.json file with default values.
-                       
+ 
+ 
 ## NPX: 
           ---> NPX is an NPM package runner that makes it really easy to install any sort of node executable that would have normally been installed using NPM. 
           
@@ -206,6 +235,7 @@
           ---> If the package is not already installed, NPX downloads the package files and installs the package, but it will only cache the files instead of saving it.                        
           ---> To run package using NPX :::     
                        ---> npx <package name>
-                       
+
+
 ## JS Test Frameworks & Assertion Libraries: 
           ---> Jest, Mocha, Storybook, Cypress, Enzyme, AVA, Jasmine, Puppeteer.                      
