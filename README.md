@@ -175,8 +175,31 @@
    
           --->  Arrow Functions ::: 
                       ---> Arrow functions are been introduced in the ES6 version of JavaScript. It is used to shorten the code. Here we do not use the “function” keyword and use the arrow symbol. 
+
+
+## Promises & Then in JavaScript:
+           ---> The then() method returns a Promise. It takes up to two arguments: callback functions for the success and failure cases of the Promise.
+           
+           ---> Previously, callback functions were used instead of this function which made the code difficult to maintain.
+           
+           ---> Syntax :::
+                      ---> p.then(onFulfilled[, onRejected]);
+                      --->       p.then(value => {
+                      --->        // fulfillment
+                      --->       }, reason => {
+                      ---->      // rejection
+                      ---->                  });
                       
+          ---> OnFulfilled ::: 
+                      ---> A Function called if the Promise is fulfilled. This function has one argument, the fulfillment value. If it is not a function, it is internally replaced with an "Identity" function (it returns the received argument).
                       
+          ---> OnRejected ::: 
+                      ---> A Function called if the Promise is rejected. This function has one argument, the rejection reason. If it is not a function, it is internally replaced with a "Thrower" function (it throws an error it received as argument).
+                      
+          ---> Note :::
+                      ---> If one or both arguments are omitted or are provided non-functions, then then will be missing the handler(s), but will not generate any errors. If the Promise that then is called on adopts a state (fulfillment or rejection) for which then has no handler, the returned promise adopts the final state of the original Promise on which then was called.
+                      
+
 ## Synchronous & Asynchronous types in JavaScript 
           ---> Synchronous ::: 
                       ---> Synchronous means to be in a sequence.
