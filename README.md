@@ -64,6 +64,38 @@
 ## How to run 
           ---> node "filename.js"
 
+## Data types in JavaScript 
+---> Primitive : All types except objects define immutable values (that is, values which can't be changed). For example, Strings are immutable. We refer to values of these types as "primitive values".
+
+          ---> Boolean ::: 
+                      ---> Boolean represents a logical entity and can have two values: true and false.
+          
+          ---> Null :::
+                      ---> The Null type has exactly one value: null.
+          
+          ---> Undefined ::: 
+                      ---> A variable that has not been assigned a value has the value undefined.
+                      
+          ---> Numeric type ::: 
+                      ---> ECMAScript has two built-in numeric types: Number and BigInt — along with the related value NaN.
+                      
+                      ---> Number:A double-precision 64-bit binary format IEEE 754 value. It is capable of storing floating-point numbers between 2^-1074 and 2^1024, but can only safely store integers in the range -(2^53 − 1) to 2^53 − 1. Values outside of the range from Number.MIN_VALUE to Number.MAX_VALUE are automatically converted to either +Infinity or -Infinity       
+                      
+                      ---> BigInt: TThe BigInt type is a numeric primitive in JavaScript that can represent integers with arbitrary precision. With BigInts, you can safely store and operate on large integers even beyond the safe integer limit for Numbers.
+                     
+                      ---> Nan: NaN ("Not a Number") is typically encountered when the result of an arithmetic operation cannot be expressed as a number. It is also the only value in JavaScript that is not equal to itself. 
+               
+          ---> String ::: 
+                      ---> JavaScript's String type is used to represent textual data. It is a set of "elements" of 16-bit unsigned integer values. Each element in the String occupies a position in the String. The first element is at index 0, the next at index 1, and so on. The length of a String is the number of elements in it.
+                      
+                      ---> JavaScript strings are immutable. This means that once a string is created, it is not possible to modify it.                 
+  
+           ---> Symbol :::
+                      ---> A Symbol is a unique and immutable primitive value and may be used as the key of an Object property (see below). In some programming languages, Symbols are called "atoms".
+          
+    ---> Object ::: 
+                      ---> In computer science, an object is a value in memory which is possibly referenced by an identifier.
+                      
 
 ## Variblable types in JavaScript 
           ---> Var ::: 
